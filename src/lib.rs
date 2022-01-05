@@ -160,6 +160,9 @@ pub mod qei;
 #[cfg(feature = "ltdc")]
 pub mod ltdc;
 
+#[cfg(feature = "device-selected")]
+pub mod sdmmc;
+
 #[cfg(all(
     feature = "device-selected",
     not(any(

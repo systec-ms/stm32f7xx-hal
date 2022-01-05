@@ -148,6 +148,7 @@ bus! {
     TIM8 => (APB2, tim8en, tim8lpen, tim8rst), // 1
     USART1 => (APB2, usart1en, usart1lpen, usart1rst), // 4
     USART6 => (APB2, usart6en, usart6lpen, usart6rst), // 5
+    SDMMC2 => (APB2, sdmmc2en, sdmmc2lpen, sdmmc2rst), // 7
     ADC1 => (APB2, adc1en, adc1lpen, adcrst), // 8
     ADC2 => (APB2, adc2en, adc2lpen, adcrst), // 9
     ADC3 => (APB2, adc3en, adc3lpen, adcrst), // 10
@@ -167,7 +168,6 @@ bus! {
 bus! {
     AES => (AHB2, aesen, aeslpen, aesrst), // 4
 
-    SDMMC2 => (APB2, sdmmc2en, sdmmc2lpen, sdmmc2rst), // 7
     USBPHYC => (APB2, usbphycen,, usbphycrst), // 31
 }
 
